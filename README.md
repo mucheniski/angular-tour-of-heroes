@@ -32,3 +32,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+Conceitos:
+
+https://tableless.com.br/entendendo-o-dom-document-object-model/#:~:text=O%20DOM%20(Document%20Object%20Model)%20%C3%A9%20uma%20interface%20que%20representa,essa%20estrutura%20pode%20ser%20acessada.
+
+O DOM (Document Object Model) é uma interface que representa como os documentos HTML e XML são lidos pelo seu browser. Após o browser ler seu documento HTML, ele cria um objeto que faz uma representação estruturada do seu documento e define meios de como essa estrutura pode ser acessada.
