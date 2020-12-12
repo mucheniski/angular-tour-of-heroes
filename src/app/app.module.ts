@@ -2,15 +2,17 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { HeroesComponent } from './heroes/heroes.component';
+import { HeroDetailComponent } from './hero-detail/hero-detail.component'; // <-- NgModel lives here
 
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
-import { FormsModule } from '@angular/forms'; // <-- NgModel lives here
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeroesComponent
+    HeroesComponent,
+    HeroDetailComponent
   ],
   imports: [
     BrowserModule,
