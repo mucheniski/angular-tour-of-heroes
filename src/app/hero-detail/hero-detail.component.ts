@@ -13,7 +13,7 @@ export class HeroDetailComponent implements OnInit {
     The hero property must be an Input property, annotated with the @Input() decorator, because the external HeroesComponent will bind to it like this.
     <app-hero-detail [hero]="selectedHero"></app-hero-detail>
   */
-  @Input() hero: Hero;
+ @Input() hero: Hero;
 
   constructor() { }
 
