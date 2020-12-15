@@ -38,3 +38,8 @@ Conceitos:
 https://tableless.com.br/entendendo-o-dom-document-object-model/#:~:text=O%20DOM%20(Document%20Object%20Model)%20%C3%A9%20uma%20interface%20que%20representa,essa%20estrutura%20pode%20ser%20acessada.
 
 O DOM (Document Object Model) é uma interface que representa como os documentos HTML e XML são lidos pelo seu browser. Após o browser ler seu documento HTML, ele cria um objeto que faz uma representação estruturada do seu documento e define meios de como essa estrutura pode ser acessada.
+
+Comandos:
+ng generate module app-routing --flat --module=app
+--flat puts the file in src/app instead of its own folder.
+--module=app tells the CLI to register it in the imports array of the AppModule.
