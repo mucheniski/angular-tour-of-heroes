@@ -6,7 +6,6 @@ import { HeroDetailComponent } from './hero-detail/hero-detail.component';
 
 const routes: Routes = [
 
-  // Continuar de Navigating to hero details https://angular.io/tutorial/toh-pt5#navigating-to-hero-details
   // Initial page of app
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
  
